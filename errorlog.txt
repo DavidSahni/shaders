@@ -1,0 +1,4 @@
+
+0(61) : error C1008: undefined variable "Normal"
+0(84) : error C1008: undefined variable "Normal"
+

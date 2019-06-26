@@ -1,0 +1,18 @@
+##OpenGL GLIB
+Perspective 15
+LookAt  0 0 5  0 0 0  0 1 0
+Background [0. 0. 0.]
+Pointsize 2.
+
+Vertex   evap.vert
+Geometry evap.geom
+Fragment evap.frag
+Program  Evap uLevel <0 4 6>				\
+			 uGravity <-0.5 0.5 0.5>	\
+			 uVelScale <0. 1. 1.5> \
+			 uNoiseAmp <0. 2.5 4.>  uNoiseFreq <0. 10. 10.> \
+			 xVel <0 1.1 1.5> 
+
+Color	.5 1. .5
+Scale .25 .25 .25
+Obj pigY.obj

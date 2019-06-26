@@ -1,0 +1,12 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 2  0 0 0  0 1 0
+
+Vertex findst.vert
+Fragment findst.frag
+Program FindST  		uS <0. 0. 1.>				\
+					uT <0. 0. 1.>				\
+					uTol <0. .05 .5>
+
+Obj pigY.obj
+ 
